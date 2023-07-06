@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Test</title>
+</head>
+<body>
+    <h1>Form Testing</h1>
+    <form action="/test">
+        <!-- Quando um checkbox tem um name e um value, o submit envia como resposta: name=value -->
+        <input type="checkbox" name="options" id="opt1" value="1">
+        <label for="opt1">Option 1</label>
+        <input type="checkbox" name="options" id="opt2" value="2">
+        <label for="opt2">Option 2</label>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
